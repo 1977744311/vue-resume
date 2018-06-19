@@ -1,0 +1,14 @@
+body.default{}
+body.default .resume { max-width: 800px; margin: 0 auto; }
+body.default .resume > section { margin: 50px 0; }
+body.default .resume > section > h1 { text-align: center; margin: 20px; }
+body.default .resume > section > h2 { text-align: center; margin: 20px; }
+body.default .resume .profile { text-align: center; }
+body.default .resume .skills > ul { display: flex; flex-wrap: wrap; justify-content: space-between; }
+body.default .resume .skills > ul > li { width: 48%; border: 1px solid #ddd; padding: 10px; margin-top: 10px; }
+body.default .resume .projects { }
+body.default .resume .projects > ol { }
+body.default .resume .projects > ol > li { margin: 30px 0; border: 1px solid #ddd; padding: 10px; }
+body.default .resume .projects header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+body.default .resume .projects header .name { margin-right: 1em; }
+body.default .resume .projects header .start { display: flex; }

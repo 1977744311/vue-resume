@@ -37,7 +37,8 @@ let app = new Vue({ el: '#app',
             password: ''
         },
         shareLink: '不知道',
-        mode: 'edit' // 'preview'
+        mode: 'edit',// 'preview',
+        skinPickerVisible: false
     },
     computed: {
         displayResume () {
@@ -145,6 +146,12 @@ let app = new Vue({ el: '#app',
         removeProject (index) {
             this.resume.projects.splice(index, 1)
         },
+        print(){
+            window.print()
+        },
+        setTheme (name) {
+            document.body.className = name
+        }
     }
 })
 
