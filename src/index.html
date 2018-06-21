@@ -41,7 +41,7 @@
     </main>
     <login v-show="loginVisible" @close="loginVisible=false" @login="onLogin" @gotosignup="signUpVisible = true"></login>
     <sign-up v-show="signUpVisible" @gotologin="signUpVisible = false"></sign-up>
-    <share v-bind:share-link="shareLink" v-show="shareVisible" ></share>
+    <share v-bind:sharelink="shareLink" v-show="shareVisible" ></share>
     <skin-picker v-show="skinPickerVisible" ></skin-picker>
     <button class="exitPreview" @click="mode = 'edit'" v-if="mode === 'preview'">退出预览</button>
 
