@@ -1,7 +1,9 @@
 Vue.component('resume', {
-    props: ['mode', 'displayResume'],
+    props: ['mode', 'displayResume','resume'],
     data () {
-        return {}
+        return {
+
+        }
     },
     created () {
     },

@@ -37,7 +37,7 @@
         </div>
     </aside>
     <main>
-        <resume :mode="mode" :display-resume="displayResume"></resume>
+        <resume :mode="mode" :display-resume="displayResume" :resume="resume"></resume>
     </main>
     <login v-show="loginVisible" @close="loginVisible=false" @login="onLogin" @gotosignup="signUpVisible = true"></login>
     <sign-up v-show="signUpVisible" @gotologin="signUpVisible = false"></sign-up>

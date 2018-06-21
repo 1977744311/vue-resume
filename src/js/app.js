@@ -29,9 +29,6 @@ let app = new Vue({ el: '#app',
                 {name: '请填写项目名称', link: 'http://...', keywords: '请填写关键词', description: '请详细描述'},
             ]
         },
-
-
-
         mode: 'edit',// 'preview',
         skinPickerVisible: false
     },
@@ -55,7 +52,6 @@ let app = new Vue({ el: '#app',
               alert('请先登录!')
           }
         },
-
         hasLogin () {
             return !!this.currentUser.objectId
         },
@@ -100,7 +96,6 @@ let app = new Vue({ el: '#app',
         print(){
             window.print()
         },
-
     }
 })
 
